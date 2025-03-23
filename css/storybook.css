@@ -1,0 +1,58 @@
+.jumbotron {
+    background: url(../images/fairy_tale.jpg) no-repeat center top;
+}
+body {
+    background-color: blanchedalmond;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30em;
+}
+h1, header p {
+    text-shadow: 1px 1px 0 #fff;
+    font-weight: 900;
+}
+.left {
+    text-align: left;
+}
+hr {
+    width: 80%;
+    text-align: center;
+    border-color: #bbb;
+}
+footer {
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.thumbnail{
+    text-align: center;
+}
+.thumbnail img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+    border-radius: 8px; 
+}
+.story{
+    text-align: justify;
+    padding: 2em;
+    background-color: antiquewhite;
+    border: thick solid white;
+    border-radius: 8px; 
+}
+.story img{
+    float: left;
+    max-width: 20em;
+    border: thick solid white;
+    border-radius: 8px; 
+    margin: 1em;
+
+}
+     
